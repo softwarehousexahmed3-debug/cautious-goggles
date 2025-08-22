@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0, minimum-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Sobia's Hijama Therapy - Certified Cupping Specialist in Karachi | 6+ Years Experience</title>
+    <meta name="title" content="Sobia's Hijama Therapy - Certified Cupping Specialist in Karachi | 6+ Years Experience">
+    <meta name="description" content="Experience authentic Hijama cupping therapy with Sobia, a certified practitioner in Karachi with 6+ years of expertise. Specializing in pain relief, wellness, and Sunnah-based treatments. Book your healing session today.">
+    <meta name="keywords" content="Hijama therapy Karachi, cupping therapy Pakistan, Sunnah Hijama, pain relief therapy, certified Hijama practitioner, holistic healing Karachi, Islamic medicine, natural therapy Pakistan, wellness center Karachi">
+    <meta name="author" content="Sobia's Hijama Therapy">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sobiahijama.com/">
+    <meta property="og:title" content="Sobia's Hijama Therapy - Certified Cupping Specialist in Karachi">
+    <meta property="og:description" content="Experience authentic Hijama cupping therapy with Sobia, a certified practitioner in Karachi with 6+ years of expertise. Specializing in pain relief, wellness, and Sunnah-based treatments.">
+    <meta property="og:image" content="https://sobiahijama.com/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Sobia's Hijama Therapy">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://sobiahijama.com/">
+    <meta property="twitter:title" content="Sobia's Hijama Therapy - Certified Cupping Specialist in Karachi">
+    <meta property="twitter:description" content="Experience authentic Hijama cupping therapy with Sobia, a certified practitioner in Karachi with 6+ years of expertise.">
+    <meta property="twitter:image" content="https://sobiahijama.com/og-image.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://sobiahijama.com/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+    <link rel="apple-touch-icon" sizes="180x180" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+    
+    <!-- Performance Optimizations -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap">
+    </noscript>
+
+    <!-- GSAP and Three.js Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body class="antialiased preloader-active">
+    <!-- Loading Progress Bar -->
+    <div id="loading-progress"></div>
+
+    <!-- Preloader -->
+    <div id="loader-wrapper">
+        <div class="counter-container">
+            <div class="number-wrapper">
+                <div id="counter-number" class="number">0</div>
+                <div id="counter-number-fluid-dark" class="number-fluid-dark">0</div>
+                <div id="counter-number-fluid-light" class="number-fluid-light">0</div>
+            </div>
+            <div class="number-wrapper">
+                <div class="number">%</div>
+                <div class="number-fluid-dark">%</div>
+                <div class="number-fluid-light">%</div>
+            </div>
+        </div>
+        
+        <svg width="0" height="0">
+            <defs>
+                <clipPath id="wave-clip-light" clipPathUnits="objectBoundingBox">
+                    <path id="wave-path-light" d="M 0 1 L 1 1 L 1 1 L 0 1 Z" />
+                </clipPath>
+                <clipPath id="wave-clip-dark" clipPathUnits="objectBoundingBox">
+                    <path id="wave-path-dark" d="M 0 1 L 1 1 L 1 1 L 0 1 Z" />
+                </clipPath>
+            </defs>
+        </svg>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress"></div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor hidden md:block">
+        <div class="cursor-outer"></div>
+        <div class="cursor-inner"></div>
+    </div>
+
+    <!-- Header with Glassmorphism -->
+    <header class="fixed top-0 left-0 w-full z-50 p-2 sm:p-4 md:p-6 lg:p-8">
+        <div class="container mx-auto">
+            <div class="glass-header rounded-xl sm:rounded-2xl px-3 sm:px-4 md:px-6 py-3 sm:py-4 flex justify-between items-center">
+                <div class="flex items-center">
+                    <div class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center mr-2 sm:mr-3">
+                        <i class="fas fa-leaf text-secondary text-sm sm:text-base md:text-xl"></i>
+                    </div>
+                    <h1 class="text-sm sm:text-lg md:text-xl lg:text-2xl font-bold text-white tracking-wider playfair">Sobia's Hijama Therapy</h1>
+                </div>
+                <div class="flex items-center gap-2 sm:gap-4">
+                    <button id="theme-toggler" class="glass rounded-full p-2">
+                        <i class="fas fa-moon text-sm sm:text-base"></i>
+                        <i class="fas fa-sun text-sm sm:text-base"></i>
+                    </button>
+                    <a href="#contact" class="btn-secondary font-bold py-2 px-3 sm:py-2 sm:px-4 md:py-3 md:px-6 rounded-full text-xs sm:text-sm md:text-base">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section with Enhanced UI -->
+    <section id="home" class="relative min-h-screen flex items-center justify-center text-center text-white overflow-hidden">
+        <div id="three-bg"></div>
+        <div class="absolute inset-0 hero-overlay"></div>
+        <div class="hero-content p-4 sm:p-6 md:p-8 max-w-6xl mx-auto relative z-10">
+            <div class="hero-badge mb-4 sm:mb-6">
+                <i class="fas fa-star"></i>
+                <span class="text-xs sm:text-sm md:text-base">Certified Hijama Specialist</span>
+            </div>
+            <h1 id="magic-ui-headline" class="playfair text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-4 sm:mb-6">
+                <span class="highlighter">Revitalize Your Health</span> Naturally
+            </h1>
+            <p class="text-sm sm:text-base md:text-lg lg:text-xl max-w-4xl mx-auto mb-6 sm:mb-8 md:mb-10 font-light leading-relaxed">Experience the ancient healing art of Hijama with Sobia, a certified practitioner in Karachi with over 6 years of dedicated experience in traditional cupping therapy.</p>
+            
+            <div class="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mb-6 sm:mb-8">
+                <a href="#services" class="btn-primary w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base">
+                    <i class="fas fa-spa mr-2"></i>
+                    Explore Services
+                </a>
+                <a href="#contact" class="btn-secondary w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base">
+                    <i class="fas fa-calendar-alt mr-2"></i>
+                    Book Appointment
+                </a>
+            </div>
+            
+            <!-- Hero Stats with Glassmorphism -->
+            <div class="hero-stats grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6 max-w-4xl mx-auto">
+                <div class="hero-stat">
+                    <span class="hero-stat-number text-lg sm:text-xl md:text-2xl lg:text-3xl">6+</span>
+                    <span class="hero-stat-label text-xs sm:text-sm">Years Experience</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number text-lg sm:text-xl md:text-2xl lg:text-3xl">500+</span>
+                    <span class="hero-stat-label text-xs sm:text-sm">Happy Clients</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number text-lg sm:text-xl md:text-2xl lg:text-3xl">100%</span>
+                    <span class="hero-stat-label text-xs sm:text-sm">Safe & Hygienic</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number text-lg sm:text-xl md:text-2xl lg:text-3xl">24/7</span>
+                    <span class="hero-stat-label text-xs sm:text-sm">Support Available</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="container mx-auto px-4 sm:px-6 md:px-8 py-8 sm:py-12 md:py-16 lg:py-24">
+        <!-- About Section -->
+        <section id="about" class="mb-12 sm:mb-16 md:mb-24 lg:mb-32">
+            <h2 class="section-title playfair text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-4 text-primary">Your <span class="highlighter">Certified</span> Hijama Specialist</h2>
+            <p class="section-title text-center text-gray-600 max-w-2xl mx-auto mb-8 sm:mb-12 md:mb-16 text-sm sm:text-base">Building trust through expertise and compassionate care.</p>
+            
+            <div class="flex flex-col lg:flex-row items-center gap-6 sm:gap-8 md:gap-12 lg:gap-16">
+                <div class="w-full lg:w-1/2 fade-in">
+                    <div class="relative">
+                        <img src="https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Sobia - Hijama Practitioner" class="rounded-xl sm:rounded-2xl shadow-2xl w-full h-auto object-cover">
+                        <div class="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 glass-card text-white py-2 px-4 sm:py-3 sm:px-6 shadow-xl floating rounded-lg">
+                            <div class="text-lg sm:text-xl md:text-2xl font-bold">6+</div>
+                            <div class="text-xs sm:text-sm">Years Experience</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 fade-in">
+                    <h3 class="playfair text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-primary">Meet Sobia</h3>
+                    <p class="text-gray-700 mb-4 sm:mb-6 text-sm sm:text-base md:text-lg leading-relaxed">With a passion for holistic wellness and over <strong>6 years of hands-on experience</strong>, I am dedicated to providing the highest standard of Hijama cupping therapy. I hold multiple certifications in both traditional and modern cupping techniques, ensuring a safe, hygienic, and effective treatment for every client.</p>
+                    <p class="text-gray-700 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">My practice is built on the foundation of trust, professionalism, and a deep understanding of the Sunnah. I believe in a personalized approach, taking the time to understand your specific health concerns to create a tailored treatment plan.</p>
+                    
+                    <div class="flex flex-wrap gap-2 sm:gap-3 mb-6 sm:mb-8">
+                        <span class="badge text-xs sm:text-sm">Certified Hijama Practitioner</span>
+                        <span class="badge text-xs sm:text-sm">6+ Years Experience</span>
+                        <span class="badge text-xs sm:text-sm">Hygienic & Safe</span>
+                        <span class="badge text-xs sm:text-sm">Sunnah Based</span>
+                    </div>
+                    
+                    <div class="flex items-center">
+                        <div class="mr-3 sm:mr-4">
+                            <i class="fas fa-phone-alt text-secondary text-xl sm:text-2xl"></i>
+                        </div>
+                        <div>
+                            <div class="text-gray-500 text-xs sm:text-sm">Call for direct booking</div>
+                            <div class="text-lg sm:text-xl font-bold text-primary">+92 317 0122099</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="mb-12 sm:mb-16 md:mb-24 lg:mb-32">
+            <h2 class="section-title playfair text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-4 text-primary">Why Choose <span class="highlighter">Sobia's Hijama</span></h2>
+            <p class="section-title text-center text-gray-600 max-w-2xl mx-auto mb-8 sm:mb-12 md:mb-16 text-sm sm:text-base">Experience the difference with our professional approach to Hijama therapy</p>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8">
+                <div class="feature-card fade-in text-center p-4 sm:p-6">
+                    <i class="fas fa-certificate text-3xl sm:text-4xl md:text-5xl text-primary mb-3 sm:mb-4"></i>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Certified Practitioner</h3>
+                    <p class="text-gray-600 text-sm sm:text-base">Fully certified with international standards and continuous education.</p>
+                </div>
+                
+                <div class="feature-card fade-in text-center p-4 sm:p-6">
+                    <i class="fas fa-shield-alt text-3xl sm:text-4xl md:text-5xl text-primary mb-3 sm:mb-4"></i>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Hygienic Environment</h3>
+                    <p class="text-gray-600 text-sm sm:text-base">Sterile equipment and sanitized facilities for your safety.</p>
+                </div>
+                
+                <div class="feature-card fade-in text-center p-4 sm:p-6">
+                    <i class="fas fa-praying-hands text-3xl sm:text-4xl md:text-5xl text-primary mb-3 sm:mb-4"></i>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Sunnah Based</h3>
+                    <p class="text-gray-600 text-sm sm:text-base">Practiced according to authentic Islamic teachings and traditions.</p>
+                </div>
+                
+                <div class="feature-card fade-in text-center p-4 sm:p-6">
+                    <i class="fas fa-user-md text-3xl sm:text-4xl md:text-5xl text-primary mb-3 sm:mb-4"></i>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Personalized Care</h3>
+                    <p class="text-gray-600 text-sm sm:text-base">Customized treatment plans based on individual needs.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section class="mb-12 sm:mb-16 md:mb-24 lg:mb-32">
+            <h2 class="section-title playfair text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-4 text-primary">Health Benefits of <span class="highlighter">Hijama Therapy</span></h2>
+            <p class="section-title text-center text-gray-600 max-w-2xl mx-auto mb-8 sm:mb-12 md:mb-16 text-sm sm:text-base">Discover the scientifically-backed benefits of traditional cupping therapy</p>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
+                <div class="benefit-card fade-in p-4 sm:p-6">
+                    <div class="benefit-icon mb-3 sm:mb-4">
+                        <i class="fas fa-heart-pulse text-3xl sm:text-4xl text-primary"></i>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-primary">Improved Circulation</h3>
+                    <p class="text-gray-600 text-sm sm:text-base">Enhances blood flow and oxygen delivery to tissues, promoting natural healing processes.</p>
+                </div>
+                
+                <div class="benefit-card fade-in p-4 sm:p-6">
+                    <div class="benefit-icon mb-3 sm:mb-4">
+                        <i class="fas fa-shield-virus text-3xl sm:text-4xl text-primary"></i>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-primary">Detoxification</h3>
+                    <p class="text-gray-600 text-sm sm:text-base">Removes toxins and metabolic waste from the body through improved lymphatic drainage.</p>
+                </div>
+                
+                <div class="benefit-card fade-in p-4 sm:p-6">
+                    <div class="benefit-icon mb-3 sm:mb-4">
+                        <i class="fas fa-brain text-3xl sm:text-4xl text-primary"></i>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-primary">Stress Relief</h3>
+                    <p class="text-gray-600 text-sm sm:text-base">Reduces stress hormones and promotes deep relaxation through therapeutic pressure points.</p>
+                </div>
+                
+                <div class="benefit-card fade-in p-4 sm:p-6">
+                    <div class="benefit-icon mb-3 sm:mb-4">
+                        <i class="fas fa-bone text-3xl sm:text-4xl text-primary"></i>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-primary">Pain Management</h3>
+                    <p class="text-gray-600 text-sm sm:text-base">Alleviates chronic pain, muscle tension, and joint stiffness naturally.</p>
+                </div>
+                
+                <div class="benefit-card fade-in p-4 sm:p-6">
+                    <div class="benefit-icon mb-3 sm:mb-4">
+                        <i class="fas fa-leaf text-3xl sm:text-4xl text-primary"></i>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-primary">Natural Healing</h3>
+                    <p class="text-gray-600 text-sm sm:text-base">Stimulates the body's natural healing mechanisms without side effects.</p>
+                </div>
+                
+                <div class="benefit-card fade-in p-4 sm:p-6">
+                    <div class="benefit-icon mb-3 sm:mb-4">
+                        <i class="fas fa-moon text-3xl sm:text-4xl text-primary"></i>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-primary">Better Sleep</h3>
+                    <p class="text-gray-600 text-sm sm:text-base">Improves sleep quality by balancing the nervous system and reducing anxiety.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="mb-12 sm:mb-16 md:mb-24 lg:mb-32">
+            <h2 class="section-title playfair text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-4 text-primary">Our Healing Services</h2>
+            <p class="section-title text-center text-gray-600 max-w-2xl mx-auto mb-8 sm:mb-12 md:mb-16 text-sm sm:text-base">Select the therapies that align with your wellness goals</p>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
+                <div class="service-card fade-in p-4 sm:p-6 md:p-8">
+                    <i class="fas fa-heartbeat text-3xl sm:text-4xl md:text-5xl text-primary mb-3 sm:mb-4"></i>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">General Body Hijama</h3>
+                    <p class="text-gray-600 text-sm sm:text-base mb-3 sm:mb-4">A comprehensive session to detoxify, improve circulation, and boost the immune system.</p>
+                    <div class="text-lg sm:text-xl font-bold text-secondary">From PKR 3,000</div>
+                </div>
+                
+                <div class="service-card fade-in p-4 sm:p-6 md:p-8">
+                    <i class="fas fa-star-and-crescent text-3xl sm:text-4xl md:text-5xl text-primary mb-3 sm:mb-4"></i>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Sunnah Points Hijama</h3>
+                    <p class="text-gray-600 text-sm sm:text-base mb-3 sm:mb-4">Focuses on specific points from the Sunnah for holistic spiritual and physical well-being.</p>
+                    <div class="text-lg sm:text-xl font-bold text-secondary">From PKR 2,500</div>
+                </div>
+                
+                <div class="service-card fade-in p-4 sm:p-6 md:p-8">
+                    <i class="fas fa-band-aid text-3xl sm:text-4xl md:text-5xl text-primary mb-3 sm:mb-4"></i>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Pain Relief Hijama</h3>
+                    <p class="text-gray-600 text-sm sm:text-base mb-3 sm:mb-4">Targets chronic pain in the back, neck, and joints to reduce inflammation and provide relief.</p>
+                    <div class="text-lg sm:text-xl font-bold text-secondary">From PKR 3,500</div>
+                </div>
+                
+                <div class="service-card fade-in p-4 sm:p-6 md:p-8">
+                    <i class="fas fa-smile-beam text-3xl sm:text-4xl md:text-5xl text-primary mb-3 sm:mb-4"></i>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Facial & Cosmetic Hijama</h3>
+                    <p class="text-gray-600 text-sm sm:text-base mb-3 sm:mb-4">Improves skin tone, reduces fine lines, and promotes a natural, radiant glow.</p>
+                    <div class="text-lg sm:text-xl font-bold text-secondary">From PKR 4,000</div>
+                </div>
+                
+                <div class="service-card fade-in p-4 sm:p-6 md:p-8">
+                    <i class="fas fa-brain text-3xl sm:text-4xl md:text-5xl text-primary mb-3 sm:mb-4"></i>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Head & Migraine Hijama</h3>
+                    <p class="text-gray-600 text-sm sm:text-base mb-3 sm:mb-4">Alleviates migraines, headaches, and mental fog with specialized head cupping.</p>
+                    <div class="text-lg sm:text-xl font-bold text-secondary">From PKR 3,000</div>
+                </div>
+                
+                <div class="service-card fade-in p-4 sm:p-6 md:p-8">
+                    <i class="fas fa-baby text-3xl sm:text-4xl md:text-5xl text-primary mb-3 sm:mb-4"></i>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Fertility & Hormonal Balance</h3>
+                    <p class="text-gray-600 text-sm sm:text-base mb-3 sm:mb-4">A targeted approach to support reproductive health and balance hormones.</p>
+                    <div class="text-lg sm:text-xl font-bold text-secondary">From PKR 4,500</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="mb-12 sm:mb-16 md:mb-24 lg:mb-32">
+            <h2 class="section-title playfair text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-4 text-primary">What Our Clients Say</h2>
+            <p class="section-title text-center text-gray-600 max-w-2xl mx-auto mb-8 sm:mb-12 md:mb-16 text-sm sm:text-base">Your health and comfort are our top priorities</p>
+            
+            <div class="relative max-w-6xl mx-auto">
+                <div class="overflow-hidden">
+                    <div id="testimonial-carousel" class="flex gap-4 sm:gap-6 md:gap-8">
+                        <div class="testimonial-card fade-in flex-shrink-0 w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.33rem)] p-4 sm:p-6">
+                            <p class="text-gray-700 mb-4 sm:mb-6 italic relative z-10 text-sm sm:text-base">"I was suffering from chronic back pain for years. After just a few sessions with Sobia, I feel like a new person. Her approach is so professional and caring. Highly recommended!"</p>
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gray-200 flex items-center justify-center mr-3"><i class="fas fa-user text-gray-500"></i></div>
+                                <div><p class="font-bold text-primary text-sm sm:text-base">Fatima K.</p><p class="text-xs sm:text-sm text-gray-500">Karachi</p></div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-card fade-in flex-shrink-0 w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.33rem)] p-4 sm:p-6">
+                            <p class="text-gray-700 mb-4 sm:mb-6 italic relative z-10 text-sm sm:text-base">"The cosmetic hijama has done wonders for my skin! It looks clearer and feels so much healthier. Sobia is truly an expert in her field. The environment is very clean and relaxing."</p>
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gray-200 flex items-center justify-center mr-3"><i class="fas fa-user text-gray-500"></i></div>
+                                <div><p class="font-bold text-primary text-sm sm:text-base">Aisha M.</p><p class="text-xs sm:text-sm text-gray-500">Karachi</p></div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-card fade-in flex-shrink-0 w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.33rem)] p-4 sm:p-6">
+                            <p class="text-gray-700 mb-4 sm:mb-6 italic relative z-10 text-sm sm:text-base">"It significantly minimized my back pain. I did not expect it to be this effective. Sobia's knowledge and professionalism are impressive."</p>
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gray-200 flex items-center justify-center mr-3"><i class="fas fa-user text-gray-500"></i></div>
+                                <div><p class="font-bold text-primary text-sm sm:text-base">Farid</p><p class="text-xs sm:text-sm text-gray-500">Karachi</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button id="prev-testimonial" class="absolute top-1/2 -left-2 sm:-left-4 -translate-y-1/2 bg-primary text-white w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full shadow-lg z-10 flex items-center justify-center text-sm sm:text-base"><i class="fas fa-chevron-left"></i></button>
+                <button id="next-testimonial" class="absolute top-1/2 -right-2 sm:-right-4 -translate-y-1/2 bg-primary text-white w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full shadow-lg z-10 flex items-center justify-center text-sm sm:text-base"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="mb-12 sm:mb-16 md:mb-24 lg:mb-32">
+            <h2 class="section-title playfair text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-4 text-primary">Frequently Asked Questions</h2>
+            <p class="section-title text-center text-gray-600 max-w-2xl mx-auto mb-8 sm:mb-12 md:mb-16 text-sm sm:text-base">Answers to common questions about Hijama therapy.</p>
+            <div class="max-w-4xl mx-auto fade-in">
+                <div class="faq-item border-b border-gray-200 dark:border-gray-700">
+                    <div class="faq-question py-4 sm:py-6 cursor-pointer">
+                        <h3 class="text-lg sm:text-xl font-semibold pr-8">Is Hijama painful?</h3>
+                        <i class="fas fa-chevron-down text-secondary absolute right-0 top-1/2 transform -translate-y-1/2"></i>
+                    </div>
+                    <div class="faq-answer overflow-hidden max-h-0 transition-all duration-300">
+                        <p class="text-gray-600 pb-4 sm:pb-6 text-sm sm:text-base">Most people do not find Hijama painful. The sensation is often described as a slight pinch or pressure, similar to a deep tissue massage. We ensure the process is as comfortable as possible for you.</p>
+                    </div>
+                </div>
+                <div class="faq-item border-b border-gray-200 dark:border-gray-700">
+                    <div class="faq-question py-4 sm:py-6 cursor-pointer relative">
+                        <h3 class="text-lg sm:text-xl font-semibold pr-8">How long does a session take?</h3>
+                        <i class="fas fa-chevron-down text-secondary absolute right-0 top-1/2 transform -translate-y-1/2"></i>
+                    </div>
+                    <div class="faq-answer overflow-hidden max-h-0 transition-all duration-300">
+                        <p class="text-gray-600 pb-4 sm:pb-6 text-sm sm:text-base">A typical session lasts between 30 to 45 minutes. This includes consultation, preparation, the cupping procedure, and post-treatment care.</p>
+                    </div>
+                </div>
+                <div class="faq-item border-b border-gray-200 dark:border-gray-700">
+                    <div class="faq-question py-4 sm:py-6 cursor-pointer relative">
+                        <h3 class="text-lg sm:text-xl font-semibold pr-8">Is it safe and hygienic?</h3>
+                        <i class="fas fa-chevron-down text-secondary absolute right-0 top-1/2 transform -translate-y-1/2"></i>
+                    </div>
+                    <div class="faq-answer overflow-hidden max-h-0 transition-all duration-300">
+                        <p class="text-gray-600 pb-4 sm:pb-6 text-sm sm:text-base">Absolutely. We adhere to the strictest hygiene standards. All equipment, including cups and blades, is single-use and sterile. Your safety is our utmost priority.</p>
+                    </div>
+                </div>
+                <div class="faq-item border-b border-gray-200 dark:border-gray-700">
+                    <div class="faq-question py-4 sm:py-6 cursor-pointer relative">
+                        <h3 class="text-lg sm:text-xl font-semibold pr-8">How often should I get Hijama?</h3>
+                        <i class="fas fa-chevron-down text-secondary absolute right-0 top-1/2 transform -translate-y-1/2"></i>
+                    </div>
+                    <div class="faq-answer overflow-hidden max-h-0 transition-all duration-300">
+                        <p class="text-gray-600 pb-4 sm:pb-6 text-sm sm:text-base">The frequency depends on your individual health goals. For general wellness, once every 3-4 months is recommended. For specific conditions, we will create a personalized treatment plan during your consultation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2 class="section-title playfair text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-4 text-primary">Begin Your Healing Journey</h2>
+            <p class="section-title text-center text-gray-600 max-w-2xl mx-auto mb-8 sm:mb-12 md:mb-16 text-sm sm:text-base">Fill out the form below or call directly to book your appointment</p>
+
+            <div class="contact-card max-w-5xl mx-auto fade-in">
+                <div class="card-accent"></div>
+                <div class="p-4 sm:p-6 md:p-8 lg:p-12">
+                    <form id="contact-form" class="space-y-4 sm:space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+                            <div>
+                                <label for="name" class="input-label text-sm sm:text-base">Full Name *</label>
+                                <div class="input-group">
+                                    <i class="fas fa-user input-icon"></i>
+                                    <input type="text" id="name" name="name" class="input-field text-sm sm:text-base" placeholder="Your Name" autocomplete="name" required>
+                                </div>
+                                <div id="name-error" class="input-error text-xs sm:text-sm">Please enter your name.</div>
+                            </div>
+                            <div>
+                                <label for="phone" class="input-label text-sm sm:text-base">Phone Number *</label>
+                                <div class="input-group">
+                                    <i class="fas fa-phone input-icon"></i>
+                                    <input type="tel" id="phone" name="phone" class="input-field text-sm sm:text-base" placeholder="03XXXXXXXXX or +923XXXXXXXXX" inputmode="tel" autocomplete="tel" required>
+                                </div>
+                                <div id="phone-error" class="input-error text-xs sm:text-sm">Enter a valid Pakistani mobile number.</div>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="email" class="input-label text-sm sm:text-base">Email (optional)</label>
+                            <div class="input-group">
+                                <i class="fas fa-envelope input-icon"></i>
+                                <input type="email" id="email" name="email" class="input-field text-sm sm:text-base" placeholder="your@email.com" autocomplete="email">
+                            </div>
+                            <div id="email-error" class="input-error text-xs sm:text-sm">Enter a valid email address.</div>
+                        </div>
+                        <div>
+                            <label for="preferred-date" class="input-label text-sm sm:text-base">Preferred Appointment Date (optional)</label>
+                            <div class="input-group">
+                                <i class="fas fa-calendar input-icon"></i>
+                                <input type="date" id="preferred-date" name="preferred-date" class="input-field text-sm sm:text-base">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="message" class="input-label text-sm sm:text-base">Additional Message (optional)</label>
+                            <div class="input-group" style="align-items: flex-start;">
+                                <i class="fas fa-comment-dots input-icon" style="margin-top: 0.2rem;"></i>
+                                <textarea id="message" name="message" rows="3" class="input-field text-sm sm:text-base" placeholder="Any specific concerns or requests?"></textarea>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="block mb-3 sm:mb-4 text-base sm:text-lg font-medium text-gray-900 dark:text-white">Which services are you interested in?</h4>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
+                                <label class="service-option"><input type="checkbox" value="General Body Hijama" class="form-checkbox w-4 h-4 sm:w-5 sm:h-5 text-secondary rounded focus:ring-secondary"><span class="ml-2 sm:ml-3 text-gray-700 dark:text-gray-200 text-sm sm:text-base">General Body Hijama</span></label>
+                                <label class="service-option"><input type="checkbox" value="Sunnah Points Hijama" class="form-checkbox w-4 h-4 sm:w-5 sm:h-5 text-secondary rounded focus:ring-secondary"><span class="ml-2 sm:ml-3 text-gray-700 dark:text-gray-200 text-sm sm:text-base">Sunnah Points Hijama</span></label>
+                                <label class="service-option"><input type="checkbox" value="Pain Relief Hijama" class="form-checkbox w-4 h-4 sm:w-5 sm:h-5 text-secondary rounded focus:ring-secondary"><span class="ml-2 sm:ml-3 text-gray-700 dark:text-gray-200 text-sm sm:text-base">Pain Relief Hijama</span></label>
+                                <label class="service-option"><input type="checkbox" value="Facial & Cosmetic Hijama" class="form-checkbox w-4 h-4 sm:w-5 sm:h-5 text-secondary rounded focus:ring-secondary"><span class="ml-2 sm:ml-3 text-gray-700 dark:text-gray-200 text-sm sm:text-base">Facial & Cosmetic</span></label>
+                                <label class="service-option"><input type="checkbox" value="Head & Migraine Hijama" class="form-checkbox w-4 h-4 sm:w-5 sm:h-5 text-secondary rounded focus:ring-secondary"><span class="ml-2 sm:ml-3 text-gray-700 dark:text-gray-200 text-sm sm:text-base">Head & Migraine</span></label>
+                                <label class="service-option"><input type="checkbox" value="Fertility & Hormonal Balance" class="form-checkbox w-4 h-4 sm:w-5 sm:h-5 text-secondary rounded focus:ring-secondary"><span class="ml-2 sm:ml-3 text-gray-700 dark:text-gray-200 text-sm sm:text-base">Fertility & Hormonal</span></label>
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn-primary pulse w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base">
+                                <i class="fas fa-paper-plane mr-2"></i>
+                                Generate Booking Message
+                            </button>
+                        </div>
+                    </form>
+
+                    <div id="messageOutput" class="hidden mt-6 sm:mt-8 md:mt-10 p-4 sm:p-6 bg-accent dark:bg-gray-800 rounded-lg border border-secondary">
+                        <h4 class="font-bold text-lg sm:text-xl mb-3 sm:mb-4 text-primary">Your Custom Message is Ready!</h4>
+                        <p class="text-gray-700 mb-4 sm:mb-6 dark:text-gray-200 text-sm sm:text-base">Copy the message below and send it to Sobia on WhatsApp.</p>
+                        <textarea id="whatsappMessage" class="w-full h-32 sm:h-48 p-3 sm:p-4 bg-white dark:bg-gray-700 rounded-md border border-gray-300 text-gray-700 dark:text-gray-200 text-sm sm:text-base" readonly></textarea>
+                        <div class="mt-4 sm:mt-6 flex flex-col sm:flex-row gap-3 sm:gap-4">
+                            <button id="copyButton" class="btn-primary w-full sm:w-auto flex-grow text-sm sm:text-base py-2 sm:py-3">
+                                <i class="fas fa-copy mr-2"></i>
+                                Copy Message
+                            </button>
+                            <a id="whatsappLink" href="#" target="_blank" class="w-full sm:w-auto flex-grow text-center bg-green-600 text-white font-bold py-2 sm:py-3 px-4 sm:px-6 rounded-full hover:bg-green-700 transition duration-300 text-sm sm:text-base">
+                                <i class="fab fa-whatsapp mr-2"></i>
+                                Send on WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer with Glassmorphism -->
+    <footer class="glass-footer text-white py-8 sm:py-12 md:py-16">
+        <div class="container mx-auto px-4 sm:px-6 md:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-12">
+                <div>
+                    <div class="flex items-center mb-4 sm:mb-6">
+                        <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-secondary flex items-center justify-center mr-3"><i class="fas fa-leaf text-white text-lg sm:text-xl"></i></div>
+                        <h3 class="text-lg sm:text-xl md:text-2xl font-bold playfair text-white">Sobia's Hijama Therapy</h3>
+                    </div>
+                    <p class="text-gray-300 mb-4 sm:mb-6 text-sm sm:text-base">Your partner in natural health and wellness in Karachi. Certified and experienced Hijama practitioner dedicated to providing safe, effective, and sunnah-based treatments.</p>
+                    <div class="flex space-x-3 sm:space-x-4">
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-opacity-80 transition text-white"><i class="fab fa-facebook-f text-sm sm:text-base"></i></a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-opacity-80 transition text-white"><i class="fab fa-instagram text-sm sm:text-base"></i></a>
+                        <a href="https://wa.me/923170122099" target="_blank" rel="noopener noreferrer" class="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-opacity-80 transition text-white"><i class="fab fa-whatsapp text-sm sm:text-base"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg sm:text-xl font-bold mb-4 sm:mb-6">Quick Links</h4>
+                    <ul class="space-y-2 sm:space-y-3">
+                        <li><a href="#home" class="text-gray-300 hover:text-secondary transition-colors text-sm sm:text-base">Home</a></li>
+                        <li><a href="#about" class="text-gray-300 hover:text-secondary transition-colors text-sm sm:text-base">About</a></li>
+                        <li><a href="#services" class="text-gray-300 hover:text-secondary transition-colors text-sm sm:text-base">Services</a></li>
+                        <li><a href="#testimonials" class="text-gray-300 hover:text-secondary transition-colors text-sm sm:text-base">Testimonials</a></li>
+                        <li><a href="#contact" class="text-gray-300 hover:text-secondary transition-colors text-sm sm:text-base">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg sm:text-xl font-bold mb-4 sm:mb-6">Contact Info</h4>
+                    <ul class="space-y-3 sm:space-y-4">
+                        <li class="flex items-start"><i class="fas fa-map-marker-alt text-secondary mt-1 mr-3 text-sm sm:text-base"></i><span class="text-sm sm:text-base">Karachi, Pakistan</span></li>
+                        <li class="flex items-center"><i class="fas fa-phone-alt text-secondary mr-3 text-sm sm:text-base"></i><span class="text-sm sm:text-base">+92 317 0122099</span></li>
+                        <li class="flex items-center"><i class="fas fa-envelope text-secondary mr-3 text-sm sm:text-base"></i><span class="text-sm sm:text-base">sobia.hijama@gmail.com</span></li>
+                        <li class="flex items-center"><i class="fas fa-clock text-secondary mr-3 text-sm sm:text-base"></i><span class="text-sm sm:text-base">Mon-Sat: 11 AM - 7 PM</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-white/20 mt-8 sm:mt-12 pt-6 sm:pt-8 text-center text-gray-300">
+                <p class="text-sm sm:text-base">&copy; <span id="year"></span> Sobia's Hijama Therapy. All Rights Reserved.</p>
+                <p class="mt-2 sm:mt-4 text-xs sm:text-sm text-gray-400">Created By <a href="https://anjaan.great-site.net/?i=1" target="_blank" rel="noopener noreferrer" class="developer-credit text-secondary hover:text-secondary-light transition-colors">AnJaan Decodes</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot -->
+    <button class="chatbot-toggler">
+        <i class="fas fa-comment-dots"></i>
+        <i class="fas fa-times"></i>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2 class="text-base sm:text-lg">Chat with us</h2>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="icon"><i class="fas fa-robot"></i></span>
+                <p class="text-sm sm:text-base">Hi there 👋<br>How can I help you today?</p>
+            </li>
+        </ul>
+        <div class="chat-input-container">
+            <div class="chat-options">
+                <!-- Options will be dynamically inserted here -->
+            </div>
+            <div class="chat-input">
+                <textarea placeholder="Enter a message..." required class="text-sm sm:text-base"></textarea>
+                <button id="send-btn"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- React Root -->
+    <div id="root"></div>
+
+    <!-- External JavaScript -->
+    <script type="module" src="/src/main.tsx"></script>
+    <script src="/src/script.js"></script>
+</body>
+</html>

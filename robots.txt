@@ -1,0 +1,82 @@
+User-agent: *
+Allow: /
+Allow: /services
+Allow: /about
+Allow: /contact
+Allow: /testimonials
+
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /*.json$
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://sobiahijama.com/sitemap.xml
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# Block AI training crawlers from accessing code
+User-agent: GPTBot
+Disallow: /src/
+Disallow: /*.js$
+Disallow: /*.css$
+Allow: /
+
+User-agent: ChatGPT-User
+Disallow: /src/
+Disallow: /*.js$
+Disallow: /*.css$
+Allow: /
+
+User-agent: CCBot
+Disallow: /src/
+Disallow: /*.js$
+Disallow: /*.css$
+Allow: /
+
+User-agent: anthropic-ai
+Disallow: /src/
+Disallow: /*.js$
+Disallow: /*.css$
+Allow: /
+
+User-agent: Claude-Web
+Disallow: /src/
+Disallow: /*.js$
+Disallow: /*.css$
+Allow: /

@@ -1,0 +1,273 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "HealthAndBeautyBusiness",
+      "@id": "https://sobiahijama.com/#business",
+      "name": "Sobia's Hijama Therapy",
+      "alternateName": "Sobia Hijama Center",
+      "description": "Certified Hijama cupping therapy specialist in Karachi, Pakistan, with over 6 years of experience in natural pain relief, wellness, and Sunnah-based treatments.",
+      "url": "https://sobiahijama.com",
+      "telephone": "+923170122099",
+      "email": "sobia.hijama@gmail.com",
+      "priceRange": "PKR 2500 - PKR 4500",
+      "currenciesAccepted": "PKR",
+      "paymentAccepted": "Cash, Bank Transfer",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Karachi",
+        "addressRegion": "Sindh",
+        "addressCountry": "PK",
+        "addressCountryCode": "PK"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "24.8607",
+        "longitude": "67.0011"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Karachi",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "Sindh"
+          }
+        }
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday", 
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "11:00",
+          "closes": "19:00"
+        }
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Sobia",
+        "jobTitle": "Certified Hijama Practitioner",
+        "description": "Professional Hijama therapist with 6+ years of experience in traditional cupping therapy",
+        "knowsAbout": [
+          "Hijama Cupping Therapy",
+          "Traditional Islamic Medicine",
+          "Pain Management",
+          "Holistic Wellness",
+          "Detoxification Therapy"
+        ]
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Hijama Therapy Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "General Body Hijama",
+              "description": "Comprehensive full-body cupping therapy for overall wellness and detoxification",
+              "category": "Health and Wellness"
+            },
+            "price": "3000",
+            "priceCurrency": "PKR",
+            "availability": "https://schema.org/InStock"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Sunnah Points Hijama",
+              "description": "Traditional Islamic cupping points as recommended by Prophet Muhammad (PBUH)",
+              "category": "Traditional Medicine"
+            },
+            "price": "2500",
+            "priceCurrency": "PKR",
+            "availability": "https://schema.org/InStock"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Pain Relief Hijama",
+              "description": "Targeted therapy for back pain, joint pain, and muscle tension relief",
+              "category": "Pain Management"
+            },
+            "price": "3500",
+            "priceCurrency": "PKR",
+            "availability": "https://schema.org/InStock"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Facial & Cosmetic Hijama",
+              "description": "Facial cupping for improved skin tone, circulation, and natural glow",
+              "category": "Beauty and Cosmetics"
+            },
+            "price": "4000",
+            "priceCurrency": "PKR",
+            "availability": "https://schema.org/InStock"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Head & Migraine Hijama",
+              "description": "Specialized treatment for headaches, migraines, and stress relief",
+              "category": "Health and Wellness"
+            },
+            "price": "3000",
+            "priceCurrency": "PKR",
+            "availability": "https://schema.org/InStock"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Fertility & Hormonal Balance",
+              "description": "Supportive therapy for hormonal balance and reproductive health",
+              "category": "Reproductive Health"
+            },
+            "price": "4500",
+            "priceCurrency": "PKR",
+            "availability": "https://schema.org/InStock"
+          }
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "127",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Fatima K."
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "I was suffering from chronic back pain for years. After just a few sessions with Sobia, I feel like a new person. Her approach is so professional and caring. Highly recommended!"
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Aisha M."
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "The cosmetic hijama has done wonders for my skin! It looks clearer and feels so much healthier. Sobia is truly an expert in her field. The environment is very clean and relaxing."
+        }
+      ],
+      "sameAs": [
+        "https://facebook.com/sobiahijama",
+        "https://instagram.com/sobiahijama",
+        "https://wa.me/923170122099"
+      ],
+      "keywords": "Hijama Karachi, Cupping Therapy Karachi, Sunnah Hijama, Natural Pain Relief, Certified Hijama Practitioner, Holistic Healing, Islamic Medicine, Detoxification, Wellness Center Karachi"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://sobiahijama.com/#website",
+      "url": "https://sobiahijama.com",
+      "name": "Sobia's Hijama Therapy",
+      "description": "Professional Hijama cupping therapy services in Karachi, Pakistan",
+      "publisher": {
+        "@id": "https://sobiahijama.com/#business"
+      },
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://sobiahijama.com/?s={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      ],
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://sobiahijama.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Hijama painful?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most people do not find Hijama painful. The sensation is often described as a slight pinch or pressure, similar to a deep tissue massage. We ensure the process is as comfortable as possible for you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a session take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A typical session lasts between 30 to 45 minutes. This includes consultation, preparation, the cupping procedure, and post-treatment care."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it safe and hygienic?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. We adhere to the strictest hygiene standards. All equipment, including cups and blades, is single-use and sterile. Your safety is our utmost priority."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should I get Hijama?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The frequency depends on your individual health goals. For general wellness, once every 3-4 months is recommended. For specific conditions, we will create a personalized treatment plan during your consultation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What conditions can Hijama help with?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hijama can help with various conditions including chronic pain, migraines, stress, poor circulation, skin issues, hormonal imbalances, and general wellness. It's also practiced for spiritual and religious purposes following Sunnah traditions."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MedicalBusiness",
+      "@id": "https://sobiahijama.com/#medical",
+      "name": "Sobia's Hijama Therapy",
+      "medicalSpecialty": [
+        "Alternative Medicine",
+        "Traditional Medicine",
+        "Cupping Therapy",
+        "Pain Management",
+        "Holistic Wellness"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Hijama Cupping Therapy",
+          "description": "Traditional cupping therapy for pain relief, detoxification, and wellness"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "siteName": "Sobia's Hijama Therapy",
+  "siteUrl": "https://sobiahijama.com",
+  "description": "Experience authentic Hijama cupping therapy with Sobia, a certified practitioner in Karachi with 6+ years of expertise. Specializing in pain relief, wellness, and Sunnah-based treatments.",
+  "keywords": [
+    "Hijama therapy Karachi",
+    "cupping therapy Pakistan",
+    "Sunnah Hijama",
+    "pain relief therapy",
+    "certified Hijama practitioner",
+    "holistic healing Karachi",
+    "Islamic medicine",
+    "natural therapy Pakistan",
+    "wellness center Karachi",
+    "traditional cupping therapy",
+    "detoxification therapy",
+    "stress relief therapy",
+    "migraine treatment Karachi",
+    "fertility support therapy",
+    "cosmetic cupping therapy"
+  ],
+  "author": "Sobia's Hijama Therapy",
+  "language": "en",
+  "locale": "en_US",
+  "type": "website",
+  "image": {
+    "url": "https://sobiahijama.com/og-image.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "Sobia's Hijama Therapy - Certified Cupping Specialist in Karachi"
+  },
+  "contact": {
+    "phone": "+92 317 0122099",
+    "email": "sobia.hijama@gmail.com",
+    "address": {
+      "locality": "Karachi",
+      "country": "Pakistan",
+      "countryCode": "PK"
+    }
+  },
+  "businessHours": {
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    "opens": "11:00",
+    "closes": "19:00"
+  },
+  "services": [
+    {
+      "name": "General Body Hijama",
+      "description": "Comprehensive detoxification and immune system boost",
+      "price": "From PKR 3,000"
+    },
+    {
+      "name": "Sunnah Points Hijama",
+      "description": "Traditional Islamic cupping points for holistic wellness",
+      "price": "From PKR 2,500"
+    },
+    {
+      "name": "Pain Relief Hijama",
+      "description": "Targeted therapy for chronic pain and inflammation",
+      "price": "From PKR 3,500"
+    },
+    {
+      "name": "Facial & Cosmetic Hijama",
+      "description": "Natural skin rejuvenation and anti-aging treatment",
+      "price": "From PKR 4,000"
+    },
+    {
+      "name": "Head & Migraine Hijama",
+      "description": "Specialized treatment for headaches and mental clarity",
+      "price": "From PKR 3,000"
+    },
+    {
+      "name": "Fertility & Hormonal Balance",
+      "description": "Support for reproductive health and hormone regulation",
+      "price": "From PKR 4,500"
+    }
+  ],
+  "socialMedia": {
+    "facebook": "https://facebook.com/sobiahijama",
+    "instagram": "https://instagram.com/sobiahijama",
+    "whatsapp": "https://wa.me/923170122099"
+  },
+  "robotsDirectives": [
+    "index",
+    "follow",
+    "max-image-preview:large",
+    "max-snippet:-1",
+    "max-video-preview:-1"
+  ],
+  "crawlerInstructions": {
+    "allowedPaths": [
+      "/",
+      "/services",
+      "/about",
+      "/contact",
+      "/testimonials"
+    ],
+    "disallowedPaths": [
+      "/admin",
+      "/private",
+      "/src",
+      "/node_modules"
+    ],
+    "sitemapUrl": "https://sobiahijama.com/sitemap.xml",
+    "crawlDelay": 1
+  }
+}
